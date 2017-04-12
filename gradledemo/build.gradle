@@ -1,0 +1,6 @@
+apply plugin: "java"
+
+
+dependencies {
+ compile "com.bugreport:mvndemo:1.0"
+}
