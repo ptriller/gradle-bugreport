@@ -10,3 +10,7 @@ To Reproduce this bug use the following steps:
 
 
 The two versions should be identical.
+
+The reason for the discrepancy is probably that gradle does not overwrite versions what are explicitly stated while maven does override the versions of dependencies of transitive dependencies with it's dependency management.
+
+
