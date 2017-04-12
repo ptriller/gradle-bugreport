@@ -1,6 +1,10 @@
 apply plugin: "java"
 
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
 
 dependencies {
- compile "com.bugreport:mvndemo:1.0"
+ compile "org.bugreport:mvndemo:1.0"
 }
